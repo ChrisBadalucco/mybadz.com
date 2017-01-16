@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link {
+	color:#33C;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#0CF;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#C00;
+	text-decoration:underlined;
+}
+
+div#container {
+	margin: 10px auto 0px auto;
+	padding: 0px;
+	width: 800px;
+	background:#F2F2F2;
+}
+
+body {
+	
+	font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+	font-size:12px;
+	background:#525252;
+}
+
+div#banner {
+	border-style:solid;
+	border-width:2px 2px 1px 2px;
+}
+
+div.minimenu {
+	background:url(../img/minimenu.gif) no-repeat;
+	height: 25px;
+	border-style:solid;
+	border-width:1px 2px;
+}
+
+div.minimenu #linkedin {
+	padding-top:7px;
+	padding-left:330px;
+	width:44px;
+	height:auto;
+	
+}
+
+div.minimenu #linkedin img {
+	border-style:none;
+}
+
+
+#menu {
+	margin:0px;
+	padding-left:10px;
+	background: #175FAC;
+	height: 44px;
+	border-style:solid;
+	border-width:1px 2px;
+}
+
+#menu li {
+	display:inline;
+	margin:0px;
+
+}
+
+#menu li img {
+	border-style:none;
+	margin:10px 20px 0px 0px;
+}
+dd { 
+	padding-left:5px;
+}
+
+div#maincontent {
+	border-style:solid;
+	border-width:1px 2px;
+	min-height:650px;/*****WANT TO CHANGE*****/
+	font-size:14px;
+	backgroud:#FFF;
+	padding-top:15px;
+	margin:auto;
+}
+
+
+div#resumeDiv {
+	min-width:778px;
+}
+
+div#resumeDiv h3{
+	font-size:1.3em;
+	color:#09F;
+	margin-bottom:-5px;
+	padding-bottom:0px;
+}
+
+div#resumeDiv dt {
+	padding-bottom:2px;
+}
+
+div#resumeDiv dd {
+	margin:0px;
+}
+
+div#resumeDiv ul {
+	padding-bottom:4px;
+} 
+
+div#resumeDiv a:link {
+	font-size:.8em; 
+}
+
+div#resumeDiv a:hover {
+	font-size:.8em; 
+	color:#0CF;
+}
+
+div#resumeDiv a:visited { 
+	font-size:.8em; 
+}
+
+div#resumeDiv li a:link {
+	font-size:14px;
+	padding:0px;
+	text-decoration:none;
+}
+
+div#resumeDiv li a:hover {
+	font-size:14px;
+	color:#0CF;
+}
+
+div#resumeDiv li a:visited {
+	font-size:14px;
+	text-decoration:none;
+	padding-left:none;
+}
+
+div#maincontent div{
+    padding:10px;
+    max-width:776px;
+}
+
+div#bioDiv img {
+	float:left;
+	margin-left:30px;
+}
+
+div#bioDiv h3 {
+	float:left;
+	margin:auto 30px;
+	/*font-family: ‘Lucida Console’, Monaco, monospace;*/
+}
+
+div#bioDiv p {
+	clear:both;
+	padding-top:20px;
+}
+
+div#portfolioDiv p {
+	margin:15px;
+}
+
+div#portMenu {
+	margin: -14px;
+	
+}
+
+div#portMenu span {
+	cursor:pointer;
+	font-size:.8em;
+	padding:10px;
+	
+
+}
+
+div#portContainer {
+	
+}
+
+
+div#portContainer div img {
+	margin-left:100px;
+}
+
+div#digevol{
+	top:28px;
+	display:none;
+}
+
+div#saintbook{
+	top:28px;
+	display:none;
+}
+
+div#pcpt{
+	top:28px;
+	display:none;
+}
+
+div#mumd{
+	top:28px;
+	display:none;
+}
+
+
+div#maincontent h2 {
+	text-align:center;
+}
+
+div#maincontent p {
+	margin:15px;
+	
+}
+
+div.footer {
+	text-align:center;
+	border-style:solid;
+	border-width:1px 2px 2px 2px;
+}
+
+.hiddenPic {
+	display:none;
+}
+
+
+p strong{
+	font-size:.9em;
+}
+
+#portLink {
+	cursor:pointer;
+	color:#0000CC;
+}

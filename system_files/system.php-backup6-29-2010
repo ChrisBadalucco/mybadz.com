@@ -1,0 +1,51 @@
+<?php
+//----------HEADER----------//
+function make_header($place)
+{
+	echo'
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Chris Badalucco | ',$place,'</title>
+		<link rel="icon" href="/system_files/img/favicon.png" type="image/ico"/>
+		<link rel="bookmark" href="system_files/img/favicon.png" type="image/ico"/>
+		<link type="text/css" href="system_files/css/style1.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="container">
+			<div id="banner"><img src="system_files/img/banner1.png" alt="banner"></div>
+	';
+}
+
+//----------MINIMENU----------//
+function make_minimenu()
+{
+	echo'
+			<div class="minimenu">
+				<a href="http://www.linkedin.com/in/cbadalucco"><img src="system_files/img/linkedin.png"</a>
+			</div>';
+}
+
+//----------MENU----------//
+function make_menu()
+{
+	echo'
+			<ul id="menu">
+				<li><img id="bioIMG" src="system_files/img/bio.png"></li>
+				<li><img id="resumeIMG" src="system_files/img/resume.png"></li>
+				<li><img id="portfolioIMG" src="system_files/img/portfolio.png"></li>
+			</ul>';
+			
+}
+
+//----------FOOTER----------//
+function make_footer()
+{
+	echo'
+			<div class="footer">&copy; 2010 Chris Badalucco. All rights reserved.</div>
+		</div>
+	</body>
+	</html>';
+}
+?>

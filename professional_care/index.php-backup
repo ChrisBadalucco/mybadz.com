@@ -1,0 +1,74 @@
+<?php
+include ("functions/functions.php");
+
+$location = $_GET['loc'];
+
+if (($location == "home") || ($location =="")) 	{ 
+
+	make_header("Home");
+	make_menu();
+
+	echo'
+	<div id = "maincontent">
+		<h2>Welcome to Professional Care Physical Therapy</h2>
+			<p>Patients benefit from an owner-operated, state of the art Physical Therapy facility <br />
+			utilizing the latest hands-on manual therapy techniques in a caring and comfortable environment.<br />
+			Owners are George Ciresi, D.P.T. and James Blair, P.T.
+			</p>
+	</div>
+	';
+	make_sidepanel();
+	make_footer();		
+}
+
+else if ($location == "forms"){
+	
+	make_header("Forms");
+	make_menu();
+
+	echo'
+	<div id = "maincontent">
+		<h2>Forms</h2>	
+		<a href="forms/insurance.pdf">Insurance Form</a>
+	</div>
+	';		
+	make_sidepanel();
+	make_footer();		
+}
+
+else if ($location == "directions"){
+
+	make_header("Directions");
+	make_menu();
+
+	echo'
+	<div id = "maincontent">
+
+	<iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;client=firefox-a&amp;ie=UTF8&amp;q=285+sills+road+east+patchogue+11772+professional+care+pt&amp;fb=1&amp;gl=us&amp;hq=professional+care+pt&amp;hnear=285+sills+road+east+patchogue+11772&amp;cid=0,0,9458497343974734722&amp;ei=JPtfS5T0F5aINe3ruNcD&amp;ved=0CAgQnwIwAA&amp;ll=40.780574,-72.972951&amp;spn=0.045495,0.072956&amp;z=13&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?hl=en&amp;client=firefox-a&amp;ie=UTF8&amp;q=285+sills+road+east+patchogue+11772+professional+care+pt&amp;fb=1&amp;gl=us&amp;hq=professional+care+pt&amp;hnear=285+sills+road+east+patchogue+11772&amp;cid=0,0,9458497343974734722&amp;ei=JPtfS5T0F5aINe3ruNcD&amp;ved=0CAgQnwIwAA&amp;ll=40.780574,-72.972951&amp;spn=0.045495,0.072956&amp;z=13&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small><br /><br />
+
+	<a href="http://maps.google.com/maps?hl=en&client=firefox-a&ie=UTF8&q=285+sills+road+east+patchogue+11772+professional+care+pt&fb=1&gl=us&hq=professional+care+pt&hnear=285+sills+road+east+patchogue+11772&view=map&f=d&daddr=285+Sills+Road,+East+Patchogue,+Suffolk,+NY+11772&geocode=CTH-JiOirtu-FV5BbgId_H-m-w&ved=0CBMQ_wY&sa=X&ei=1vxfS7KsJo_wMrWOgboJ">Click Here to get directions from Google Maps</a>
+
+	</div>
+	';
+	make_sidepanel();
+	make_footer();		
+}
+
+else if ($location == "staff"){
+
+	make_header("Staff");
+	make_menu();
+
+	echo'
+	<div id = "maincontent">
+		<h2>Staff</h2>	
+		<p><img src="img/male_user_icon.png" alt="male user" /> - George Ciresi, D.P.T: This is stuff about George. This is stuff about George. This is about George. This is stuff about George. This is stuff about George. This 			is about George. This is stuff about George. This is stuff about George. This is about George. 
+		</p>
+
+		<p><img src="img/male_user_icon.png" alt="male user" /> - James J. Blair, P.T: This is about James.This is about James.This is about James.This is about James.This is about James.This is about James.This is about James.This is about James.This is about James.This is about James.This is about James.
+		</p>
+	</div>
+	';
+	make_sidepanel();
+	make_footer();		
+}

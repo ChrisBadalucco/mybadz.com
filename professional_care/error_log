@@ -1,0 +1,12 @@
+[11-Oct-2009 12:35:28] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home6/mybadzco/public_html/professional_care/index.php on line 11
+[11-Oct-2009 12:35:28] PHP Parse error:  syntax error, unexpected '<' in /home6/mybadzco/public_html/professional_care/index.php on line 13
+[11-Oct-2009 12:35:45] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home6/mybadzco/public_html/professional_care/index.php on line 11
+[11-Oct-2009 12:35:45] PHP Parse error:  syntax error, unexpected '<' in /home6/mybadzco/public_html/professional_care/index.php on line 13
+[27-Jan-2010 05:06:11] PHP Warning:  include(system/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home6/mybadzco/public_html/professional_care/index.php on line 2
+[27-Jan-2010 05:06:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'system/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home6/mybadzco/public_html/professional_care/index.php on line 2
+[27-Jan-2010 05:06:11] PHP Fatal error:  Call to undefined function  make_header() in /home6/mybadzco/public_html/professional_care/index.php on line 8
+[27-Jan-2010 05:07:40] PHP Parse error:  syntax error, unexpected $end in /home6/mybadzco/public_html/professional_care/functions/functions.php on line 136
+[27-Jan-2010 08:50:56] PHP Parse error:  syntax error, unexpected $end in /home6/mybadzco/public_html/professional_care/functions/functions.php on line 178
+[27-Jan-2010 08:58:41] PHP Parse error:  syntax error, unexpected '}' in /home6/mybadzco/public_html/professional_care/functions/functions.php on line 123
+[02-Apr-2010 03:44:41] PHP Parse error:  syntax error, unexpected T_ELSE in /home6/mybadzco/public_html/professional_care/index.php on line 49
+[02-Apr-2010 03:45:52] PHP Parse error:  syntax error, unexpected T_ELSE in /home6/mybadzco/public_html/professional_care/index.php on line 56

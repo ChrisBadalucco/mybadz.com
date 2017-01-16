@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #1961AD 50% 0;
+	text-align:center;	
+	margin:0px auto;
+	background-image:url('img/jpg/pc_bg1.jpg');
+	font-family:"Times New Roman", Times, serif;
+	
+}
+
+/*div {
+  padding: 10px;
+  margin: 10px;
+}*/
+
+div#wrapper {
+	/*background-image:url('img/jpg/pc_bg1.jpg');*/
+}
+
+div#container {
+	
+    margin:0px auto;
+	width:1000px;
+	height:570px;
+	/*border: solid brown;*/
+}
+
+#header{
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+	width:980px;
+	height:125px;
+	/*border: solid #0F3;*/
+	/*background:url(../img/jpg/testfade-head.gif) no-repeat;*/
+}
+	
+#menu{
+	/*margin-top:5px;*/
+	margin-left:10px;
+	margin-right:50px;
+	width:980px;
+	height:40px;
+	/*border: solid #00F;*/
+	/*background-color: #FFF;*/
+	/*background:url(../img/jpg/testfade-menu.gif) no-repeat;*/
+
+}
+
+/*#menufloat {
+	margin-left:255px;
+}*/
+
+/*.menuitem {
+	float:right;
+}*/
+
+.menuitem img{  
+	/*float:left;*/
+	border-style: none;
+	margin:0px;
+	padding:1px;
+}
+
+#maincontent{
+	margin-top:3px;
+	margin-left:10px;
+	/*padding: 10px;*/
+	/*font-size:.8em;*/
+	text-align: none;
+	width:755px;
+	float:left;
+	height:380px;
+	/*border: solid #F00;*/
+	/*background-color: #FFF;*/
+	overflow:auto;
+	/*background:url(../img/jpg/testfade-main.gif) no-repeat;*/
+}
+
+#maincontent h2{
+    font-size:2.0em;
+    padding-bottom:15px;
+}
+
+#maincontent p {
+	margin:0px 40px;
+}
+
+.bio img {
+	float:left;
+	margin:0px 10px;
+}
+
+.bio {
+	margin:15px;
+	font-size:1.1em;
+	float:left;
+	text-align:left;
+}
+
+
+
+#maincontent ul {
+	list-style:none;
+}
+
+#maincontent ul li {
+	display:inline;
+}
+
+#maincontent ul img {
+	width:175px;
+	height:auto;
+	margin:4px;
+}
+
+#sidepanel, h3{
+	font-size: 1.25em;
+	/*padding-bottom: 5px;*/
+}
+
+#sidepanel{
+	font-size:.75em;
+	margin-top:3px;
+	margin-right:10px;
+	width:220px;
+	float:right;
+	/*border: solid #666;*/
+	height:380px;
+	background-color: #FFF;
+	overflow:auto;
+
+}
+
+#sidepanel img{
+	width:135px;
+	height:auto;
+	margin: 10px;
+}
+
+#sidepanel a{
+	max-width:210px;
+}
+
+#footer , a{
+	font-size: 0.80em;
+}
+
+#footer{
+	text-align:center;
+	font-size:.80em;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:15px 0px;
+	width:980px;
+	height: 25px;
+	clear:both;
+	float:left;
+	/*background-color:#FFF;*/
+	/*border: solid #F0F;*/
+	background:url(../img/jpg/footer55.jpg) no-repeat;
+
+}
+
+.menuitem a{
+	float:left;
+	color:#000;
+	cursor:pointer;
+	font-style:normal;
+	margin-left:3px;
+	text-decoration: none;
+}
+
+#contactInfo {
+	margin-top:150px;
+	font-size:.85em;
+}
+
+#addr {
+	text-align:left;
+	float:left;
+}
+
+#phone {
+	text-align:right;
+	float:right;
+}
+
+#gmaps {
+	margin-top:10px;
+	padding:0px;
+	border:0px;
+	
+}

@@ -1,1 +1,1 @@
-"# mybadz.com" 
+# mybadz.com

@@ -1,0 +1,173 @@
+<?
+
+
+
+/***********************************************************************/
+/*HEADER*/
+/***********************************************************************/
+function make_header($place)
+{
+	echo'
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+		"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		
+		<head>
+			<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+			
+			<title>Professional Care PT | ',$place,'</title>
+			<link rel="icon" href="img/favicon.png" type="image/ico"/>
+			<link rel="bookmark" href="img/favicon.png" type="image/ico"/>
+			<link type="text/css" href="css/style.css" rel="stylesheet"/>
+		</head>
+		<body>
+			<div id="wrapper">
+			<div id="container">
+				<div id="header">
+				<a href="?loc=home"><img src="img/jpg/pc_banner.jpg" alt="banner" border="0"/></a>
+				</div>
+	';
+}
+/***********************************************************************/
+/*MENU*/
+/***********************************************************************/
+function make_menu()
+{
+	$place = $_GET['loc'];
+	echo'
+	<div id = "menu">
+		<div id = "menufloat">
+		';
+		if (($place == "home") || ($place == "" )){
+			echo'<div class="menuitem">';
+				?>
+				<a href="?loc=home"><img id = "home" src="img/icons/home3-38px.jpg" alt="HOME"
+				onmouseover="document.getElementById('home').setAttribute('src', 'img/icons/home2-38px.jpg')"
+                onmouseout="document.getElementById('home').setAttribute('src', 'img/icons/home3-38px.jpg')"/></a>
+              	<?
+			 	 echo'</div>';
+		}
+		else {
+			echo'<div class="menuitem">';
+				?>
+				<a href="?loc=home"><img id = "home" src="img/icons/home1-38px.jpg" alt="home"
+				onmouseover="document.getElementById('home').setAttribute('src', 'img/icons/home2-38px.jpg')"
+                onmouseout="document.getElementById('home').setAttribute('src', 'img/icons/home1-38px.jpg')"/></a>
+				<?
+			echo'</div>';
+		}
+		if (($place == "forms")){
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=forms"><img id = "forms" src="img/icons/forms3-38px.jpg" alt="FORMS"
+				onmouseover="document.getElementById('forms').setAttribute('src', 'img/icons/forms2-38px.jpg')"
+				onmouseout="document.getElementById('forms').setAttribute('src', 'img/icons/forms3-38px.jpg')"/></a>
+				
+			<?
+			echo'</div>';
+		}
+		else {
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=forms"><img id = "forms" src="img/icons/forms1-38px.jpg" alt="forms"
+				onmouseover="document.getElementById('forms').setAttribute('src', 'img/icons/forms2-38px.jpg')"
+				onmouseout="document.getElementById('forms').setAttribute('src', 'img/icons/forms1-38px.jpg')"/></a>
+			
+			<?
+			echo'</div>';
+		}
+		if (($place == "directions")){
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=directions"><img id = "direct" src="img/icons/directions3-38px.jpg" alt="DIRECTIONS"
+				onmouseover="document.getElementById('direct').setAttribute('src', 'img/icons/directions2-38px.jpg')"
+				onmouseout="document.getElementById('direct').setAttribute('src', 'img/icons/directions3-38px.jpg')"/></a>
+				
+			<?
+			echo'</div>';
+		}
+		else {
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=directions"><img id = "direct" src="img/icons/directions1-38px.jpg" alt="directions"
+				onmouseover="document.getElementById('direct').setAttribute('src', 'img/icons/directions2-38px.jpg')"
+				onmouseout="document.getElementById('direct').setAttribute('src', 'img/icons/directions1-38px.jpg')"/></a>
+		
+			<?
+			echo'</div>';
+		}
+		
+		if (($place == "staff")){
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=staff"><img id = "staff" src="img/icons/staff3-38px.jpg" alt="STAFF"
+                onmouseover="document.getElementById('staff').setAttribute('src', 'img/icons/staff2-38px.jpg')"
+                onmouseout="document.getElementById('staff').setAttribute('src', 'img/icons/staff3-38px.jpg')"/></a>
+                
+            <?
+			echo'</div>';
+		}
+		else {
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=staff"><img id = "staff" src="img/icons/staff1-38px.jpg" alt="staff"
+                onmouseover="document.getElementById('staff').setAttribute('src', 'img/icons/staff2-38px.jpg')"
+                onmouseout="document.getElementById('staff').setAttribute('src', 'img/icons/staff1-38px.jpg')"/></a>
+                
+            <?
+			echo'</div>';
+		}
+		if (($place == "images")){
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=images"><img id = "images" src="img/icons/images3-38px.jpg" alt="IMAGES"
+                onmouseover="document.getElementById('images').setAttribute('src', 'img/icons/images2-38px.jpg')"
+                onmouseout="document.getElementById('images').setAttribute('src', 'img/icons/images3-38px.jpg')"/></a>
+                
+            <?
+			echo'</div>';
+		}
+		else {
+			echo'<div class="menuitem">';
+			?>
+				<a href="?loc=images"><img id = "images" src="img/icons/images1-38px.jpg" alt="images"
+                onmouseover="document.getElementById('images').setAttribute('src', 'img/icons/images2-38px.jpg')"
+                onmouseout="document.getElementById('images').setAttribute('src', 'img/icons/images1-38px.jpg')"/></a>
+                
+            <?
+			echo'</div>';
+		}
+		echo'</div></div>';
+}
+	
+
+/***********************************************************************/
+/*FOOTER*/
+/***********************************************************************/
+function make_footer()
+{
+				echo'<div id = "footer">
+						&copy; 2010 Professional Care Physical Therapy | Last Updated: 6/8/2010
+				</div>
+			</div>
+		</div>
+	</body>
+</html>';
+}
+
+
+/***********************************************************************/
+/*SIDE PANEL*/
+/***********************************************************************/
+function make_sidepanel()
+{
+	echo'<div id = "sidepanel">
+			<a href="?loc=images"><img src="img/office/smIMG_5192.jpg" alt="Front Door" /></a>
+			<a href="?loc=images"><img src="img/office/smDSC_0177.jpg" alt="Equipment1"/></a>
+			<a href="?loc=images"><img src="img/office/smIMG_5198.jpg" alt="Equipment2"/></a>
+		</div>';
+}
+
+
+
+?>
