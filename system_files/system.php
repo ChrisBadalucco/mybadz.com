@@ -11,7 +11,7 @@ function make_header()
 		<link rel="icon" href="/system_files/img/favicon.png" type="image/ico"/>
 		<link rel="bookmark" href="system_files/img/favicon.png" type="image/ico"/>
 		<link type="text/css" href="system_files/css/style1.css" rel="stylesheet"/>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript">
 		</script>
 
 		<script type="text/javascript">
